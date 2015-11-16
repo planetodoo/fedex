@@ -20,18 +20,20 @@
 
 
 {
-    'name': 'Shipping Service Integration',
+    'name': 'Shipping Base Module',
     'version': '1.0',
     'category': 'Generic Modules/Warehouse Management',
     'description': """
      Odoo Integration with USPS, UPS and Fedex
     """,
-    "website" : "www.teckzilla.net",
-    'author': 'Teckzilla Software Solutions',
+    "website" : "http://planet-odoo.com/",
+    'author': 'Planet Odoo',
     'depends': ['sale','stock','delivery','product','sale_stock'],
     'css': [
         'static/src/css/rotate_label.css',
         ],
+	"price": "50",
+    "currency": "EUR",
     "demo" : [],
     "data": [
         "security/shipping_security.xml",
