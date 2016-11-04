@@ -26,8 +26,8 @@
     'description': """
      Odoo Integration with USPS, UPS and Fedex
     """,
-    "website" : "http://planet-odoo.com/",
-    'author': 'Planet Odoo',
+    "website" : "www.teckzilla.net",
+    'author': 'Teckzilla',
     'depends': ['sale','stock','delivery','product','sale_stock'],
     'css': [
         'static/src/css/rotate_label.css',
